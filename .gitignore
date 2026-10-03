@@ -1,0 +1,29 @@
+# Local lab state (contains AWS account ID and resource IDs)
+.lab.env
+
+# Raw source materials - never push (contains pre-scrub framing)
+temp/
+
+# Builder brief - not part of the public repo story
+CURSOR_SPEC.md
+
+# Article draft lives on the blog, not in this repo
+article/
+
+# Real matrix output after a run (keep results.example.csv only)
+results/results.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Never commit real credentials, ever
+*.pem
+.env
